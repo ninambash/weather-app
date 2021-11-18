@@ -1,106 +1,103 @@
 body {
-    display: block;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    margin-bottom: 200px;
-    padding: 2px 30px;
-    background: #222;
-    background-image: url("https://source.unsplash.com/1600x900/?city");
-    color: white;
-    height: 550px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-size: 120%;
-  }
-  .search-bar{
-    display: flex;
-    align-content: flex-end;
-    justify-content: center;
-    border-radius:50% ;
-    border: none;
-    padding: 50px 30px;
-    border-radius: 50px;
-    color: black;
-    margin: 150px 50px 150px 50px; 
-    margin-top: 49px ;
-    cursor: pointer;
-  }
-  input.search-input{
-    display: flex;
-    border-radius: 24px;
-    background: lightgray;
-    color:black;
-    font-size: 120%;
-    outline: none;
-    padding: 2px 15px;
-    margin-left: 35px;
-    
-  }
-  .btn{
-    display: flex;
-    border-radius: 18px;
-    border: none;
-    outline: none;
-    background: #7c7c7c2b;
-    color:white;
-    cursor: pointer;
-  }
-  
-  .city{
-    display: flex;
-    align-items: center;
-  }
-  
-  .container{
-    background: #222;
-    display: block;
-    align-items:flex-start;
-    justify-content: flex-start;
-    height: 300px;
-    width: 500px;
-    margin-top: 1px;
-    margin-right: 20px;
-    padding: 30px 30px;
-    border-radius: 10%;
-    margin-top: 30px;
-  }
-  .weather-app{
-    width: 400px;
-    height: 100px;
-    margin-top: 0px;
-  }
-  
-  img{
-    display: block;
-  }
- 
-  .row{
-    display: flex;
-  }
- .form-control{
-   height: 40px;
-   display: flex;
-   display: flex;
-    border-radius: 24px;
-    background: lightgray;
-    color:black;
-    font-size: 120%;
-    outline: none;
-    padding: 2px 15px;
-    margin-left: 35px;
-    
- }
- .submit .form-control{
-     height:100px;    ;
-     width: 1000px;
-     display: flex;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  margin-bottom: 200px;
+  padding: 2px 30px;
+  background: #222;
+  background-image: url("https://source.unsplash.com/1600x900/?city");
+  color: white;
+  height: 550px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 120%;
+}
+.search-bar {
+  display: flex;
+  align-content: flex-end;
+  justify-content: center;
+  border-radius: 50%;
+  border: none;
+  padding: 50px 30px;
+  border-radius: 50px;
+  color: black;
+  margin: 150px 50px 150px 50px;
+  margin-top: 49px;
+  cursor: pointer;
+}
+input.search-input {
+  display: flex;
+  border-radius: 24px;
+  background: lightgray;
+  color: black;
+  font-size: 120%;
+  outline: none;
+  padding: 2px 15px;
+  margin-left: 35px;
+}
+.btn {
+  display: flex;
+  border-radius: 18px;
+  border: none;
+  outline: none;
+  background: #7c7c7c2b;
+  color: white;
+  cursor: pointer;
+}
 
- }
- .search-button{
-        height: 1px;
-        width: 25px;
-        display: flex;
- }
+.city {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  background: #222;
+  display: block;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 300px;
+  width: 500px;
+  margin-top: 1px;
+  margin-right: 20px;
+  padding: 30px 30px;
+  border-radius: 10%;
+  margin-top: 30px;
+}
+.weather-app {
+  width: 400px;
+  height: 100px;
+  margin-top: 0px;
+}
+
+img {
+  display: block;
+}
+
+.row {
+  display: flex;
+}
+.form-control {
+  height: 40px;
+  display: flex;
+  display: flex;
+  border-radius: 24px;
+  background: lightgray;
+  color: black;
+  font-size: 120%;
+  outline: none;
+  padding: 2px 15px;
+  margin-left: 35px;
+}
+.submit .form-control {
+  height: 100px;
+  width: 1000px;
+  display: flex;
+}
+.search-button {
+  height: 1px;
+  width: 25px;
+  display: flex;
+}
